@@ -18,6 +18,7 @@ public class ItemResource
 	
 	ItemRepository repo = new ItemRepository();
 	
+	//get all item
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)	
 	public List<Item> getItems() 
